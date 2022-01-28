@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Shop Homepage - Start Bootstrap Template</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="index.html">E-commerce</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#!">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Shop</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#!">All Products</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button id="btn-ordenes" class="btn btn-outline-dark">
+              <i class="bi-cart-fill me-1"></i>
+              Carito
+            </button>
+          </form>
+        </div>
+        
+      </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-5">
+      <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+          <h1 class="display-4 fw-bolder">Shop in style</h1>
+          <p class="lead fw-normal text-white-50 mb-0">
+            With this shop hompeage template
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- Section-->
+    <section  class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div
+          id="page-content"
+          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center page-content"
+        ></div>
+        <div id="order" class="order">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Imagen</th>
+                <th scope="col">Producto</th>
+                <th scope="col">Precio</th>
+              </tr>
+            </thead>
+            <tbody id="order-table">
+              <tr>
+                <td>1</th>
+                <td><img src="" class="imagen" alt="..." /> </td>
+                <td>Pichones</td>
+                <td>500
+
+                </td>
+              </tr>
+              <tr>
+                <td>1</th>
+                <td><img src="" class="imagen" alt="..." /> </td>
+                <td>Pichones</td>
+                <td>500
+                  
+                </td>
+              </tr><tr>
+                <td>1</th>
+                <td><img src="" class="imagen" alt="..." /> </td>
+                <td>Pichones</td>
+                <td>500
+                  
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h1 class="total-carrito" id="order-total">Total $150</h1>
+          <button id="continuarCompra" class="btn btn-outline-dark">Continuar con la compra</button>
+          
+
+          <form id="formCompra" class="formCompra">
+            <div class="row mb-3">
+              <label for="name" class="col-sm-2 col-form-label col-form-label-sm">Nombre:</label>
+              <div  class="col-sm-10">
+                <input id="nameForm" type="text" class="form-control form-control-sm" placeholder="Nombre y Apellido">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="email" class="col-sm-2 col-form-label col-form-label-sm">Email:</label>
+              <div  class="col-sm-10">
+                <input id="emailForm" type="email" class="form-control form-control-sm"  placeholder="ejemplo@gmail.com">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="tel" class="col-sm-2 col-form-label col-form-label-sm">Teléfono:</label>
+              <div  class="col-sm-10">
+                <input id="telForm" type="text" class="form-control form-control-sm"  placeholder="11 543645 355">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="country" class="col-sm-2 col-form-label col-form-label-sm">País</label>
+              <div  class="col-sm-10">
+                <input id="paisForm" type="text" class="form-control form-control-sm"  placeholder="Argentina">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="state" class="col-sm-2 col-form-label col-form-label-sm">Provincia:</label>
+              <div  class="col-sm-10">
+                <input id="provinciaForm" type="text" class="form-control form-control-sm"  placeholder="Córdoba">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="city" class="col-sm-2 col-form-label col-form-label-sm">Ciudad:</label>
+              <div  class="col-sm-10">
+                <input id="ciudadForm" type="text" class="form-control form-control-sm"  placeholder="Ej: Cordoba">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="adress" class="col-sm-2 col-form-label col-form-label-sm">Dirección:</label>
+              <div  class="col-sm-10">
+                <input id="direccionForm" type="text" class="form-control form-control-sm"  placeholder="La Pampa 3455 3ero B">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="codigoPostal" class="col-sm-2 col-form-label col-form-label-sm">Codigo postal:</label>
+              <div  class="col-sm-10">
+                <input id="cpostalForm" type="text" class="form-control form-control-sm"  placeholder="1416">
+              </div>
+            </div>
+
+
+            
+          </form>
+          <div class="btnConfPagar" id="btnConfPagar">
+            <button type="submit" id="confirmarCompra" class="btn btn-outline-dark">Confirmar compra</button>
+          </div>
+        </div>
+
+        <!-- <div id="order" class="order">
+          <div id="order-table" class="order-table"></div>
+          <h1 id="order-total">Total $150</h1>
+        </div> -->
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Your Website 2021
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

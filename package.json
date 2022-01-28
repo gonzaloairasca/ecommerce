@@ -1,0 +1,21 @@
+{
+  "name": "webstore",
+  "version": "1.0.0",
+  "description": "ecommerce website",
+  "main": " ",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websotre"
+  ],
+  "author": "gonzalo airasca",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.1",
+    "googleapis": "^39.2.0",
+    "mercadopago": "^1.5.11"
+  }
+}
